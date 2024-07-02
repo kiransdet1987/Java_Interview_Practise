@@ -1,8 +1,8 @@
 package com.in28minutes.collections.set;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -32,6 +32,12 @@ public class SetDemo {
 		hashset.add(7);
 
 		System.out.println("The hashset numbers are " + hashset);
+		
+		Iterator<Integer> in =  hashset.iterator();
+		while(in.hasNext()) {
+			System.out.println("The elements are :-###" + in.next());
+		}
+		
 
 		Set<Integer> linkedhashset = new LinkedHashSet<>();
 
