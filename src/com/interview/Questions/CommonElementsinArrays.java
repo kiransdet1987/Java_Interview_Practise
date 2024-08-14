@@ -35,7 +35,8 @@ public class CommonElementsinArrays {
 				// By using Java Stream
 				String[] array3 = { "Java", "JavaScript", "C", "C++" };
 				String[] array4 = { "Python", "C#", "Java", "C++" };
-				ArrayList<String> list3 = new ArrayList<>(Arrays.asList(array3));
+				List<String> list3 = Arrays.asList(array3);
+				//ArrayList<String> list3 = new ArrayList<>(Arrays.asList(array3));
 				ArrayList<String> list4 = new ArrayList<>(Arrays.asList(array4));
 				List<String> commonElements1 = 
 				list3.stream().filter(list4::contains).collect(Collectors.toList());

@@ -22,6 +22,8 @@ public class StudentsHighestMark {
 		for (Map.Entry<String, Integer> entry : map.entrySet()) {
             String student = entry.getKey();
             int marks = entry.getValue();
+            Integer mar = marks;
+           
             
             if(marks > maxMarks) {
             	maxMarks = marks;
