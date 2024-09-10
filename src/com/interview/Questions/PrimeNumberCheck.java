@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class PrimeNumberCheck {
 
+	//Prime numbers are natural numbers that are divisible by only 1 and the number itself.
+	//2, 3, 5, 7, 11, 13
 	public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        System.out.print("Enter a number: ");
